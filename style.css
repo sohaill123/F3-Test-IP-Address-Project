@@ -1,0 +1,253 @@
+body {
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    
+}
+
+table {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+#city,
+#region,
+#organisation,
+#hostname {
+    padding-left: 12rem;
+}
+
+#above-map {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#below-map {
+    margin-top: 2rem;
+    font-size: 24px;
+}
+
+#btn {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #1abc9c;
+    color: #ffffff;
+    width: 15rem;
+    height: 3rem;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #16a085;
+    color: #ffffff;
+}
+
+#card {
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 150px; /* Set a fixed height for the cards */
+    background-color: #575A85;
+}
+
+#post-office-list {
+
+
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: auto 50%;
+    gap: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    
+  
+}
+
+#search-box input {
+    border: 1px solid #555;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #333;
+    color: #ffffff;
+}
+
+#search-box {
+    display: none;
+}
+
+#search-input::placeholder {
+    width: max-content;
+    margin: 20px;
+    padding-left: 20px;
+    background-image: url('search-icon.svg');
+    background-repeat: no-repeat;
+    text-indent: 10px;
+    color: #999;
+}
+
+#search-input {
+    padding: 10px 40px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    font-size: 18px;
+    outline: none;
+    background-color: #333;
+    color: #ffffff;
+}
+
+.loader {
+    display: none;
+    /* Add these properties to center the loader */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid #333;
+    border-left: 4px solid #1abc9c;
+    border-right: 4px solid #1abc9c;
+    /* Blue border on top */
+    border-radius: 50%;
+    /* Make it a circle */
+    width: 30px;
+    /* Set the width and height */
+    height: 30px;
+    animation: spin 1s linear infinite;
+    /* Add animation */
+}
+
+.searchbar>span {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+#post-office-heading, #more-info, #location{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#post-office-heading h2, #more-info h2, #location h2 {
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main{
+    max-width: 95%;
+  height: 95%;
+}
+
+
+
+.container {
+    display: flex;
+    height: 20%;
+   
+   
+  }
+  
+  .section1, .section2 {
+    flex: 1;
+    padding: 15px;
+  }
+  
+  .section1 {
+    background-color: black;
+
+   
+  }
+  
+  .section2 {
+    background-color: #575A85;
+    
+    text-align: center;
+    padding-top: 10%;
+    
+  }
+
+  /* footer */
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  footer .logo {
+    margin-bottom: 30px;
+  }
+  
+  footer h4 {
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  
+  footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+  }
+  
+  footer a {
+    color: #000;
+    font-size: 13px;
+    text-decoration: none;
+  
+    margin-bottom: 10px;
+  }
+  
+  footer .follow {
+    margin-top: 2px;
+  }
+  
+  footer .follow {
+    margin-top: 2px;
+  }
+  
+  footer .install .row img {
+    border: 1px solid #088175;
+    border-radius: 5px;
+  }
+  
+  footer .install img {
+    margin: 10px 0 15px 0;
+  }
+  
+  footer .follow i {
+    color: #269ed6;
+    padding-right: 4px;
+    cursor: pointer;
+  }
+  
+  footer .follow i:hover,
+  footer a:hover {
+    color: #06c7c7;
+  }
+  
+  footer .copyright {
+    width: 100%;
+    text-align: center;
+  }
+  
